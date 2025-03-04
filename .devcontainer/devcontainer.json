@@ -1,0 +1,36 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}public static void bubbleSort(int[] arr) {
+
+int len = arr.length;
+for (int i = 0; i < len; i++) {
+
+for (int j = 1; j < len - i; j++) {
+
+if (arr[j - 1] > arr[j]) {
+int tmp = arr[j - 1];
+
+arr[j - 1] = arr[j];
+
+    {
+    "nome": "meu-projeto-devcontainer",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu", // Qualquer imagem genérica baseada em Debian.
+    "características": {
+        "ghcr.io/devcontainers/features/go:1": {
+            "versão": "1.18"
+        },
+        "ghcr.io/devcontainers/features/docker-in-docker:1": {
+            "versão": "mais recente",
+            "moby": verdadeiro
+        }
+             
+arr[j] = tmp;
+
+}
+
+}
+
+}
+
+}
